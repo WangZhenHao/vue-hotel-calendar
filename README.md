@@ -92,17 +92,25 @@ h2 {
 
 
 | props参数 | 类型 | 描述 | 是否必填 | 格式|
+| --- | --- | --- | --- |--- |
 | visibility | boolean | 选择弹框是否显示 | 必填  |默认：false |
+| --- | --- | --- | --- |--- |
 | format | String | 返回的日期格式 | 非必填 | 默认：YYYY-MM-DD|
+| --- | --- | --- | --- |--- |
 | initDate | object | 初始化选中的日期范围 | 非必填|  默认选中：当天日期~后天日期,传参格式{ startDate: 'xxxx-xx-xx', endDate: 'xxxx-xx-xx' }|
+| --- | --- | --- | --- |--- |
 | showMonth | Number | 显示多少个月 | 非必填 | 默认：3 |
+| --- | --- | --- | --- |--- |
 
 
 | 回调函数 | 类型 | 描述 | 格式 |
+| --- | --- | --- | --- | --- |
 | select-date-range | function | 选择两个日期的后的回调函数，返回选中的日期 | function(res) {....} |
-
-
+| --- | --- | --- | --- |--- |
 
 | 内置方法 | 描述 | 
+| --- | --- | --- | --- |
 | this.$refs['hotelCalendar'].getValue()  | 返回选中的日期,格式： {startDate: YYYY-MM-DD,endDate: YYYY-MM-DD,seletDays: Days }|
+| --- | --- | --- | --- |
 |this.$refs['hotelCalendar'].getCalenderList(date, mixDate, maxDate)|重新渲染列表， 格式：date: YYYY-MM 开始月份, mixDate: YYYY-MM-DD，maxDate: 'YYYY-MM-DD'|
+| --- | --- | --- | --- |--- |
