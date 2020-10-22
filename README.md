@@ -108,3 +108,14 @@ select-date-range | function | 选择两个日期的后的回调函数，返回�
 | --- | --- | 
 | `this.$refs['hotelCalendar'].getValue()`  | 返回选中的日期,格式： {startDate: YYYY-MM-DD,endDate: YYYY-MM-DD,seletDays: Days } |
 |`this.$refs['hotelCalendar'].getCalenderList(date, mixDate, maxDate)`|重新渲染列表， 格式：date: YYYY-MM 开始月份, mixDate: YYYY-MM-DD，maxDate: 'YYYY-MM-DD'|
+
+>如果本身的需求和上述不相符，建议clone一份代码来自己开发,该项目基于webpack5搭建的vue简单应用
+
+```
+安装依赖
+yarn install
+
+启动服务
+yarn example:dev
+
+```
