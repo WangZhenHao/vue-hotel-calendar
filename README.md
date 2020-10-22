@@ -101,7 +101,7 @@ showMonth | Number | 显示多少个月 | 非必填 | 默认：3 |
 ##### 事件
 | 回调函数 | 类型 | 描述 | 格式 |
 |--- | --- | --- | --- | 
-select-date-range | function | 选择两个日期的后的回调函数，返回选中的日期 | function(res) {....} |
+@select-date-range | function | 选择两个日期的后的回调函数，返回选中的日期 | function(res) {....} |
 
 ##### 内置方法
 | 内置方法 | 描述| 
